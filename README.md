@@ -197,6 +197,25 @@ This is a demonstration workflow, not an operational climate-risk product. Lands
 
 Results depend on cloud masking, summer date selection, spectral thresholds, rural reference definition, Landsat 30 m spatial resolution, coastal influence, and the selected display extent for communication maps.
 
-## Citation and attribution
 
-Please cite Google Earth Engine, the USGS Landsat 8 Collection 2 Level 2 product, IDE Chile DPA 2023, and CartoDB basemap attribution when using or adapting this workflow.
+## Citation
+
+If you use this repository, workflow, or derived products in academic work, please cite:
+
+> Vega-Escobar, A. (2026). *Urban Heat Island Mapping for Greater Concepción using Google Earth Engine* (Version 1.0.0). GitHub. https://github.com/geoforestdata/UrbanHeatIsland_GreaterConcepcion
+
+## Data and Software Attribution
+
+This project uses the following open data and software:
+
+- Google Earth Engine
+
+- USGS Landsat 8 Collection 2 Level 2
+
+- IDE Chile – DPA 2023 administrative boundaries
+
+- CartoDB Positron basemap (via Contextily)
+
+- Python ecosystem (Earth Engine API, GeoPandas, Rasterio, Matplotlib, Folium, Geemap)
+
+Please cite these data sources according to their respective licenses and citation guidelines when appropriate.
