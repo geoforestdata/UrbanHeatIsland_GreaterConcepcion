@@ -2,7 +2,6 @@ __pycache__/
 .ipynb_checkpoints/
 outputs/geotiffs/*.tif
 outputs/geotiffs/*.tiff
-outputs/figures/*.png
 outputs/tables/*.csv
 !outputs/geotiffs/.gitkeep
 !outputs/figures/.gitkeep
