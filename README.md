@@ -16,6 +16,30 @@ This repository maps Surface Urban Heat Island (SUHI) change in Greater Concepci
 
 The workflow compares land surface temperature and SUHI intensity for two austral summer periods: January-March 2015 and January-March 2026. SUHI is calculated as urban LST minus a rural reference LST for the same period. The scientific workflow is unchanged from the notebook analysis; the static and interactive maps use a fixed urban-centered display extent only for visualization.
 
+## Google Earth Engine setup
+
+Users need an active Google Earth Engine account to run the notebook. Authentication is handled automatically by the notebook in both Google Colab and local Jupyter.
+
+1. Create or activate a Google Earth Engine account.
+2. Open `UrbanHeatIsland_GreaterConcepcion.ipynb`.
+3. Run the Google Earth Engine authentication cell.
+4. If Earth Engine asks for a Google Cloud project, edit only `EE_PROJECT`.
+5. Leave `EE_PROJECT = None` if your account already has a default project.
+
+Most users can leave:
+
+```python
+EE_PROJECT = None
+```
+
+If Earth Engine requests a Google Cloud project, replace it with your own project ID:
+
+```python
+EE_PROJECT = "your-google-cloud-project"
+```
+
+No personal project ID is included in this repository.
+
 ## Key outputs
 
 <p align="center">
@@ -137,9 +161,10 @@ UrbanHeatIsland_GreaterConcepcion/
 
 1. Open the notebook using the Colab badge above.
 2. Confirm the shapefile and companion files are present in `data/admin_boundaries/`.
-3. Run the notebook from top to bottom.
-4. Authenticate Google Earth Engine when prompted.
-5. Commit the generated PNG files in `outputs/figures/` and `docs/index.html` if publishing on GitHub.
+3. Leave `EE_PROJECT = None` unless Earth Engine asks for a project ID.
+4. Run the notebook from top to bottom.
+5. Authenticate Google Earth Engine when prompted.
+6. Commit the generated PNG files in `outputs/figures/` and `docs/index.html` if publishing on GitHub.
 
 ## How to run locally
 
