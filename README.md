@@ -4,6 +4,9 @@ This repository contains a reproducible Google Earth Engine and Python workflow 
 
 The analysis uses Landsat 8 Collection 2 Level 2 imagery, land surface temperature (LST), NDVI, MNDWI, NDBI, a spectral-index urban mask, and a spectral-index rural reference mask. It is designed to run in Google Colab or in a local Python environment.
 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geoforestdata/UrbanHeatIsland_GreaterConcepcion/blob/main/UrbanHeatIsland_GreaterConcepcion.ipynb)
+
 ## Study Area
 
 The study area covers four municipalities in Greater Concepción:
