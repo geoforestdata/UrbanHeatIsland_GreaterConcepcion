@@ -190,6 +190,58 @@ restart the notebook kernel and rerun from the top. The Landsat preprocessing ce
 ```text
 Landsat preprocessing functions ready. Earth Engine image casting is enabled.
 ```
+---
+
+## LinkedIn carousel — Urban Thermal Change 2015–2026
+
+A 5-slide editorial carousel summarizing the key findings of this analysis, designed for public communication on LinkedIn.
+
+| Slide | Content |
+|-------|---------|
+| 1 | Surface temperature change · Greater Concepción · 2015–2026 (Delta LST, metropolitan extent) |
+| 2 | Zoom: Carriel Sur Airport and Lomas de San Sebastián — zones of highest warming |
+| 3 | Land surface temperature · Summer 2015 |
+| 4 | Land surface temperature · Summer 2026 · Same scale as 2015 |
+| 5 | Everything is open — data, code, maps, interactive explorer |
+
+### Slide previews
+
+<table>
+  <tr>
+    <td><img src="communications/linkedin/slides/Slide1.png" width="200"/></td>
+    <td><img src="communications/linkedin/slides/Slide2.png" width="200"/></td>
+    <td><img src="communications/linkedin/slides/Slide3.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Slide 1 — Delta LST</em></td>
+    <td align="center"><em>Slide 2 — Zoom Carriel Sur</em></td>
+    <td align="center"><em>Slide 3 — LST 2015</em></td>
+  </tr>
+  <tr>
+    <td><img src="communications/linkedin/slides/Slide4.png" width="200"/></td>
+    <td><img src="communications/linkedin/slides/Slide5.png" width="200"/></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Slide 4 — LST 2026</em></td>
+    <td align="center"><em>Slide 5 — Everything is open</em></td>
+    <td></td>
+  </tr>
+</table>
+
+### Cartographic specifications
+
+- Basemap: CartoDB Positron No Labels
+- Format: 216 × 270 mm (4:5, LinkedIn-optimized)
+- Resolution: 300 dpi
+- LST scale: fixed 18–36°C (identical across slides 3 and 4)
+- Delta LST scale: diverging −8 to +8°C, centered at zero
+- Tools: QGIS Print Layout
+
+### Download
+
+[📄 Download PDF carousel](communications/linkedin/carousel_UrbanHeat_Concepcion.pdf)
+
 
 ## Limitations
 
