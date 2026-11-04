@@ -177,19 +177,17 @@
         
     
             var tile_layer_cb94ae5bf9962e8b8b1012315a9da5f3 = L.tileLayer(
-                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
-  "maxZoom": 20,
-  "maxNativeZoom": 20,
+  "maxZoom": 18,
+  "maxNativeZoom": 16,
   "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
-  "subdomains": "abcd",
+  "attribution": "Tiles \u0026copy; Esri \u0026mdash; Esri, HERE, Garmin, \u0026copy; OpenStreetMap contributors",
   "detectRetina": false,
   "tms": false,
   "opacity": 1,
 }
-
             );
         
     
@@ -616,7 +614,7 @@
     
             var layer_control_b26e9e49e69542b660f5e3cab885a9f1_layers = {
                 base_layers : {
-                    "cartodbpositron" : tile_layer_cb94ae5bf9962e8b8b1012315a9da5f3,
+                    "esri_light_gray" : tile_layer_cb94ae5bf9962e8b8b1012315a9da5f3,
                 },
                 overlays :  {
                     "Study area boundary" : geo_json_e812af1eeda6986c1c143eb94c118019,

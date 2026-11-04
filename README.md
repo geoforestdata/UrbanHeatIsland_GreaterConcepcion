@@ -112,7 +112,7 @@ The boundary is derived from IDE Chile DPA 2023 administrative boundaries and re
 - Landsat 8 Collection 2 Level 2 imagery from Google Earth Engine
 - Landsat QA_PIXEL quality assessment band for cloud and shadow masking
 - IDE Chile DPA 2023 administrative boundaries
-- CartoDB Positron basemap for visual context
+- Esri World Light Gray basemap for visual context
 
 ## Methods
 
@@ -231,7 +231,7 @@ A 5-slide editorial carousel summarizing the key findings of this analysis, desi
 
 ### Cartographic specifications
 
-- Basemap: CartoDB Positron No Labels
+- Basemap: Esri World Light Gray Canvas
 - Format: 216 × 270 mm (4:5, LinkedIn-optimized)
 - Resolution: 300 dpi
 - LST scale: fixed 18–36°C (identical across slides 3 and 4)
@@ -266,7 +266,7 @@ This project uses the following open data and software:
 
 - IDE Chile – DPA 2023 administrative boundaries
 
-- CartoDB Positron basemap (via Contextily)
+- Esri World Light Gray basemap (via Contextily and Folium; tiles © Esri, HERE, Garmin, © OpenStreetMap contributors)
 
 - Python ecosystem (Earth Engine API, GeoPandas, Rasterio, Matplotlib, Folium, Geemap)
 
